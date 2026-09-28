@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: arial, sans-serif;
+}
+/* Cor de fundo para a página inteira */
+body {
+    background-color: lightblue; 
+}
+
+/* Cor para o título principal (H1) */
+h1 {
+    color: white; 
+}
+
+/* Cor diferente para os restantes títulos (H2, H3, etc.) */
+h2, h3, h4 {
+    color: Red; /
+}
+
+/* Cor para o texto dos parágrafos */
+p {
+    color: black; 
+}
+/* Regra para o container (div) */
+.header {
+    width: 300px;              
+    background-color: #ffffff; 
+    
+    /* CSS Borders: define a espessura (2px), o estilo (solid) e a cor (#2c3e50) */
+    border: 2px solid #2c3e50;  
+    
+    padding: 10px;              
+    margin-bottom: 20px;        
+}
+
+/* Garantir que as imagens se ajustam mantendo as proporções */
+.header img {
+    width: 100%;                /* Ocupa exatamente a largura do contentor (300px) */
+    height: auto;               /* Mantém a proporção original da imagem sem a distorcer */
+    display: block;             /* Remove pequenos espaços em branco indesejados abaixo da imagem */
+}
